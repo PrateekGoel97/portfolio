@@ -175,20 +175,22 @@ html{
 }
 
 .about{
-
   padding-bottom: 48px;
-  
+
 }
 
 .about-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .about-left{
   font-size: 24px;
+
 }
+
 
 .about-name{
   font-size: 32px;
@@ -216,5 +218,31 @@ html{
   }
   .about-name{
     font-size: 1.2rem;
+  }
+}
+
+
+.social-contact{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social-icon-div{
+  padding: 6px;
+  margin:6px;
+  cursor: pointer;
+}
+
+.social-icon{
+  height: 55px;
+}
+
+@media screen and (max-width:720px){
+
+  .social-icon{
+    height: 32px;
   }
 }
