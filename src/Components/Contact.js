@@ -1,3 +1,4 @@
+import Separator from "./Separator";
 
 
 
@@ -5,7 +6,7 @@ const Contact = (props) =>{
 
     return (
         <div>
-            this is Contact
+            <Separator />
         </div>
     )
 }
