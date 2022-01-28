@@ -1,11 +1,29 @@
 
-
+import {project} from '../data/projects';
+import ProjectCard from './ProjectCard';
+import Separator from './Separator';
 
 const Projects = (props) =>{
 
+    const data = project;
+
     return (
-        <div>
-            this is Projects
+        <div className="projects">
+
+            <Separator />
+
+            <label className="section-title">Projects</label>
+
+            <div>
+
+                {
+                    data.map((item) =>{
+                        return <ProjectCard project={item}/>
+                    })
+                }
+
+            </div>
+           
         </div>
     )
 }

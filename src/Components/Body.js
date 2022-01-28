@@ -3,6 +3,7 @@ import Skills from './Skills';
 import Contact from './Contact';
 import Projects from './Projects';
 import Work from './Work';
+import Separator from "./Separator";
 
 const Body = (props) =>{
 
@@ -12,8 +13,9 @@ const Body = (props) =>{
             <section id="About" >
             < About />
             </section>
+            
 
-            {/* <section className='Projects'>
+            <section className='Projects'>
             <Projects />
             </section>
 
@@ -27,7 +29,7 @@ const Body = (props) =>{
 
             <section className='Contact'>
             <Contact />
-            </section> */}
+            </section>
         </div>
     )
 
