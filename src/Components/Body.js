@@ -3,7 +3,7 @@ import Skills from './Skills';
 import Contact from './Contact';
 import Projects from './Projects';
 import Work from './Work';
-import Separator from "./Separator";
+
 
 const Body = (props) =>{
 

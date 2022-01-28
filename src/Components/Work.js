@@ -7,7 +7,7 @@ const Work = (props) =>{
     const data = workData;
 
     return (
-        <div className="work">
+        <div className="work" id="Work">
             <Separator />
             <label className="section-title">Work</label>
 

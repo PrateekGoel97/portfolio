@@ -4,7 +4,7 @@ export const skill = [
         type:"Frontend",
         list:[
             {
-                name:"Html5",
+                name:"HTML5",
                 icon:<i class="devicon-html5-plain colored"></i>
             },
             {
@@ -16,7 +16,7 @@ export const skill = [
                 icon:<i class="devicon-javascript-plain colored"></i>
             },
             {
-                name:"React.JS",
+                name:"React JS",
                 icon:<i class="devicon-react-original colored"></i>
             },
             

@@ -7,7 +7,7 @@ const Skills = (props) =>{
     const data = skill;
 
     return (
-        <div className="skills">
+        <div className="skills" id="Skills">
             <Separator />
             <label className="section-title">Skills</label>
 

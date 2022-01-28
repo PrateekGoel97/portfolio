@@ -12,7 +12,7 @@ const About = (props) =>{
 
                         Hello there👋, I am 
                         <br /><span className="about-name">Prateek Goel</span>
-                        <br/>I love experimenting with the web.
+                        <br/>I love experimenting with the Frontend of web.
 
                 </div>
 

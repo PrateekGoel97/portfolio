@@ -8,7 +8,7 @@ const Projects = (props) =>{
     const data = project;
 
     return (
-        <div className="projects">
+        <div className="projects" id="Projects">
 
             <Separator />
 

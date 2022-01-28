@@ -5,8 +5,8 @@
 const Footer  = (props) =>{
 
     return (
-        <div>
-            This is footer
+        <div className="footer">
+            Made by Prateek Goel
         </div>
     )
 }
