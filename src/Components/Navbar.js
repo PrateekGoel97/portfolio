@@ -31,7 +31,7 @@ const Navbar  = (props) =>{
                 <div className="mobile-menu">
                     
                     <div onClick={handleOpen} className="mobile-img">
-                        < img src="https://cdn-icons-png.flaticon.com/512/2948/2948037.png" alt="hamburger-icon"/>
+                        < img src="https://cdn-icons-png.flaticon.com/512/747/747327.png" alt="hamburger-icon"/>
                     </div>
 
                     {isopen && <Mobile isopen={isopen}  setOpen={setOpen}/>}

@@ -25,6 +25,7 @@ html{
   }
 }
 
+
 @media screen and (max-width:512px){
   
   .App{
@@ -198,7 +199,7 @@ html{
 }
 
 .about-image{
-  height: 450px;
+  height: 340px;
  
 }
 
@@ -472,7 +473,7 @@ html{
 }
 
 .work-logo{
-  height: 80px;
+  height: 60px;
 }
 
 .work-info{

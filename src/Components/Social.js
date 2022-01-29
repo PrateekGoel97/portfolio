@@ -5,7 +5,7 @@ const Social = (props) =>{
 
     const data = SocialData;
 
-    console.log(data[0].icon);
+    
     return(
         <div className="social-contact">
             {
